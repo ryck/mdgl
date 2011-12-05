@@ -66,7 +66,68 @@ td { vertical-align: top; }
    Author: 
    ========================================================================== */
 
+header {
+    background-color: #007A99;
+    border-bottom: 1px solid #FFFFFF;
+    height: 69px;
+    display: block;
+}
 
+.header-img {
+    background: url("../img/semi-logo.png") no-repeat scroll left top transparent;
+}
+
+.header-right {
+    float: right;
+    height: 128px;
+    position: relative;
+    text-indent: -99999px;
+    width: 128px;
+    z-index: 500;
+}
+#nav-container {
+    float: left;
+    margin-top: 7px;
+}
+#navigation { 
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0;
+  float: left;
+}
+
+#navigation li { 
+  float: left; 
+  position: relative; 
+  margin: 10px 0; 
+}
+#navigation li:hover { 
+  
+}
+#navigation li a {
+  display: block; 
+  padding: 10px; 
+  color: #fff; 
+  text-decoration: none;
+  font-size: 1.2em;
+}
+#navigation li a:hover { 
+    background: none repeat scroll 0 0 #FFF;
+    border-radius: 5px 5px 5px 5px;
+    color: #007A99;
+}
+#navigation li ul { opacity: 0; position: absolute; left: 0; width: 12em; background: #63867f; list-style-type: none; padding: 0; margin: 0; }
+#navigation li:hover ul { opacity: 1; }
+#navigation li ul li { float: none; position: static; height: 0; line-height: 0; background: none; }
+#navigation li:hover ul li { height: 30px; line-height: 30px; }
+#navigation li ul li a { background: #63867f; }
+
+
+
+#navigation li { -webkit-transition: all 0.2s; -moz-transition: all 0.2s;  }
+#navigation li a { -webkit-transition: all 0.5s; -moz-transition: all 0.2s; }
+#navigation li ul { -webkit-transition: all 1s; -moz-transition: all 0.2s; }
+#navigation li ul li { -webkit-transition: height 0.5s; -moz-transition: all 0.2s; }
 
 
 
